@@ -7,7 +7,13 @@ const mainController = {
     },
     home: (req, res) => {
         res.render('home')
-    }
+    },
+    products: (req, res) => {
+        res.render('products')
+    },
+    shoppingCart: (req, res) => {
+        res.render('ShoppingCart')
+    },
 }
 
 module.exports = mainController;
